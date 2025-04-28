@@ -125,6 +125,7 @@ class _QDeviceFormatManagement(object):
                 "usb-storage": {
                     "min_io_size": self._str_to_dec,
                     "opt_io_size": self._str_to_dec,
+                    "serial": self._on,
                 },
             },
             "object": {
